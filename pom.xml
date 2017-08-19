@@ -211,10 +211,10 @@
         <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>findbugs-maven-plugin</artifactId>
-            <version>1.2</version>
+            <version>3.0.4</version>
             <configuration>
                 <findbugsXmlOutput>true</findbugsXmlOutput>
-                <findbugsXmlWithMessages>true</findbugsXmlWithMessages>
+                <!-- <findbugsXmlWithMessages>true</findbugsXmlWithMessages> -->
                 <xmlOutput>true</xmlOutput>
             </configuration>
         </plugin>
