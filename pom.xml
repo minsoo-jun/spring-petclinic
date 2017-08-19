@@ -213,11 +213,12 @@
             <artifactId>findbugs-maven-plugin</artifactId>
             <version>3.0.4</version>
             <configuration>
-                <findbugsXmlOutput>true</findbugsXmlOutput>
-                <!-- <findbugsXmlWithMessages>true</findbugsXmlWithMessages> -->
                 <xmlOutput>true</xmlOutput>
+                <!-- Optional directory to put findbugs xdoc xml report -->
+                <xmlOutputDirectory>target/findbugs</xmlOutputDirectory>
             </configuration>
         </plugin>
+
     </plugins>
   </build>
   <reporting>
